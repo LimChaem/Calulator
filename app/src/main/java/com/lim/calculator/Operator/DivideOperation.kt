@@ -10,3 +10,6 @@ class DivideOperation : AbstractOperation() {
         return answer
     }
 }
+
+// 예외처리 - 0으로 나눌 때
+// requrie
