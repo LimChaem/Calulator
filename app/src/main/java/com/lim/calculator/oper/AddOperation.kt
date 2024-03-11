@@ -1,4 +1,4 @@
-package com.lim.calculator.Operator
+package com.lim.calculator.oper
 
 import com.lim.calculator.AbstractOperation
 
@@ -9,9 +9,6 @@ class AddOperation : AbstractOperation() {
         println("$num1 더하기 $num2 의 값은 $answer 입니다.")
 
         return answer
-
-    }
-    init{
 
     }
 }

@@ -1,16 +1,16 @@
 package com.lim.calculator
 
-import com.lim.calculator.Operator.AddOperation
-import com.lim.calculator.Operator.DivideOperation
-import com.lim.calculator.Operator.MultiplyOperation
-import com.lim.calculator.Operator.RemainOperation
-import com.lim.calculator.Operator.SubtractOperation
+import com.lim.calculator.oper.AddOperation
+import com.lim.calculator.oper.DivideOperation
+import com.lim.calculator.oper.MultiplyOperation
+import com.lim.calculator.oper.RemainOperation
+import com.lim.calculator.oper.SubtractOperation
 
 fun main() {
     var num1 = 0.0
     var num2 = 0.0
     var operator = ""
-    var op = arrayOf("1", "2", "3", "4", "5")
+    var op = arrayOf("1", "2", "3", "4", "5","-1")
 
     while(true) {
         println("원하시는 연산을 선택해주세요.")

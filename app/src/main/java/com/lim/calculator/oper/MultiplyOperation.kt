@@ -1,4 +1,4 @@
-package com.lim.calculator.Operator
+package com.lim.calculator.oper
 
 import com.lim.calculator.AbstractOperation
 
